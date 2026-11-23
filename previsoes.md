@@ -2,3 +2,5 @@
 - A1-b: IXSCAN + FETCH + SORT em memoria, ~12000 docs examinados, nReturned 20
 
 - A1-c: IXSCAN + FETCH + LIMIT sem SORT em memoria, dezenas de docs examinados, nReturned 20
+
+- A2: Erro sem indice; apos 2dsphere usa GEO_NEAR_2DSPHERE, dezenas de docs examinados, ate 10 retornados
