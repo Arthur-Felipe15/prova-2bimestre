@@ -8,3 +8,5 @@
 - A3: TTL falha porque registrado_em foi gravado como String ISO e nao BSON Date
 
 - A4: Com _id:0 usa IXSCAN + PROJECTION_COVERED (totalDocsExamined 0); sem _id:0 adiciona FETCH
+
+- B1: IXSCAN cobrindo classe e ts antes do group, ~40000 docs agrupados, retorna 3 terminais
