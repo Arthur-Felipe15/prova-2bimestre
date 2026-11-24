@@ -4,3 +4,5 @@
 - A1-c: IXSCAN + FETCH + LIMIT sem SORT em memoria, dezenas de docs examinados, nReturned 20
 
 - A2: Erro sem indice; apos 2dsphere usa GEO_NEAR_2DSPHERE, dezenas de docs examinados, ate 10 retornados
+
+- A3: TTL falha porque registrado_em foi gravado como String ISO e nao BSON Date
