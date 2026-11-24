@@ -10,3 +10,5 @@
 - A4: Com _id:0 usa IXSCAN + PROJECTION_COVERED (totalDocsExamined 0); sem _id:0 adiciona FETCH
 
 - B1: IXSCAN cobrindo classe e ts antes do group, ~40000 docs agrupados, retorna 3 terminais
+
+- B2: Original retorna kg_total 0 por falta de $ e project precoce; corrigido usa IXSCAN e retorna 3 terminais
