@@ -6,3 +6,5 @@
 - A2: Erro sem indice; apos 2dsphere usa GEO_NEAR_2DSPHERE, dezenas de docs examinados, ate 10 retornados
 
 - A3: TTL falha porque registrado_em foi gravado como String ISO e nao BSON Date
+
+- A4: Com _id:0 usa IXSCAN + PROJECTION_COVERED (totalDocsExamined 0); sem _id:0 adiciona FETCH
